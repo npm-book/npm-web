@@ -1,6 +1,6 @@
 # [WIP] private npm website
 
-A private npm registry manager client, still work in progress.
+A private npm registry manager client, still work in progress. Welcome PR!!!.
 
 ![dark](./docs/dark.png)
 
