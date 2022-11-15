@@ -1,30 +1,41 @@
-# private npm website
-## 这是个啥
+# [WIP] private npm website
 
-私有 npm 仓库的 web 页面。
+A private npm registry manager client, still work in progress.
 
-## 必备
+![dark](./docs/dark.png)
+
+## Features
+
+- Enterprise private account system, such as support for SSO authentication
+- More fine-grained npm package data reporting
+- Private scope application, registration and management, scope personnel management
+- Package preview (public, private), vulnerability report
+- Security module, including bug-versions management and internal advisories management
+
+## Preview
+
+![light](./docs/light.png)
+
+## Tech Stacks
 
 1. [Node.js LTS](https://github.com/nodejs/Release)
     * [Automatically call nvm use](https://github.com/nvm-sh/nvm#deeper-shell-integration)
 2. [Modern.js](https://modernjs.dev/)
 3. [Semi-UI](https://github.com/DouyinFE/semi-design)
 
-## 开发
-
-按开发环境的要求，运行和调试项目
+## How to develop
 
 ```
-npm run dev
+$ npm run dev
 ```
 
-继续创建更多项目要素，比如应用入口
+using more features
 
 ```
 npm run new
 ```
 
-其他
+others
 
 ```
 npm run build        # 按产品环境的要求，构建项目

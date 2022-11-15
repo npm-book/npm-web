@@ -1,11 +1,10 @@
 import { ComponentType, useEffect, useState } from 'react';
-import { NavLink } from '@modern-js/runtime/router';
+// import { NavLink } from '@modern-js/runtime/router';
 
 import { Layout, Nav, Button, Avatar, Tooltip, Input } from '@douyinfe/semi-ui';
 import {
   IconBell,
   IconHelpCircle,
-  IconBytedanceLogo,
   IconHome,
   IconHistogram,
   IconLive,
@@ -144,7 +143,6 @@ const App = ({ Component, ...pageProps }: { Component: ComponentType }) => {
               alignItems: 'center',
             }}
           >
-            <IconBytedanceLogo size="large" style={{ marginRight: '8px' }} />
             <span>Copyright © 2022 @Beace. All Rights Reserved. </span>
           </span>
         </Footer>
